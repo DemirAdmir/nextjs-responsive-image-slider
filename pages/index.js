@@ -1,12 +1,15 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Herosection from "./herosection";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Herosection />
+      <Footer />
     </div>
   );
 }
